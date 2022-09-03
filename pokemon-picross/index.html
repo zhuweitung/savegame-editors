@@ -12,7 +12,7 @@
 	<script type="text/javascript" src="./pokemon-picross.js"></script>
 	<script type="text/javascript"><!--
 		/* service worker */
-		var FORCE_HTTPS=true;
+		var FORCE_HTTPS=false;
 		window.addEventListener('load',function(){
 			if(location.protocol==='http:' && FORCE_HTTPS)
 				location.replace(window.location.href.replace('http:','https:'));
